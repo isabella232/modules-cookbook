@@ -18,7 +18,7 @@
 # limitations under the License.
 #
 
-require 'chef/dsl/include_recipe'
+require 'chef/dsl'
 
 use_inline_resources if defined?(use_inline_resources)
 

@@ -18,6 +18,8 @@
 # limitations under the License.
 #
 
+require 'chef/dsl/include_recipe'
+
 use_inline_resources if defined?(use_inline_resources)
 
 include Chef::DSL::IncludeRecipe
